@@ -1,6 +1,6 @@
 # python_documented_terminal
 
-!https://pp.userapi.com/c837735/v837735300/566c6/iQ-OLuuLOcQ.jpg!
+![](https://pp.userapi.com/c837735/v837735300/566c6/iQ-OLuuLOcQ.jpg)
 
 ## Что это?
 
