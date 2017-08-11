@@ -50,7 +50,13 @@ def call(name, *args):
 
 """"""""""""""""""""""""""""""""""""""""""
 
-call('printX', 123)
+class CLI:
+    def __getattr__(self, attr):
+        global call
+        return lambda *args: call(attr, *args)
+cli = CLI()
+
+cli.printX(123) # same as call('printX', 123)
 
 command = raw_input("> ")
 while command != "exit":
